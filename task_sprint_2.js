@@ -61,15 +61,15 @@ window.SPRINT_TASKS_2 = [
         breakdown: [
             {
                 title: "https://kimbal.io/smart-meters/",
-                price: 4000,
+                price: 5000,
                 days: 4,
-                completion: 'not started',
+                completion: 'completed',
             },
             {
                 title: "https://kimbal.io/consumer-mobile-app/",
                 price: 4000,
                 days: 4,
-                completion: 'not started',
+                completion: 'completed',
             },
             {
                 title: "https://kimbal.io/careers/",
@@ -87,7 +87,7 @@ window.SPRINT_TASKS_2 = [
                 title: "https://kimbal.io/contact-us/",
                 price: 4000,
                 days: 4,
-                completion: 'not started',
+                completion: 'completed',
             }
         ]
     },
@@ -99,19 +99,31 @@ window.SPRINT_TASKS_2 = [
     },
     {
         title: "SEO Changes",
-        completion: 'not started',
+        completion: 'completed',
         breakdown: [
             {
                 title: "Home Page SEO Changes",
                 price: 1000,
                 days: 1,
-                completion: 'not started',
-            }
+                completion: 'completed',
+            },
+            {
+                title: "Home Page Faq add",
+                price: 1000,
+                days: 1,
+                completion: 'completed',
+            },
+            {
+                title: "Home Page & Consumer Mobile App Page Design update",
+                price: 2000,
+                days: 1,
+                completion: 'completed',
+            },
         ]
     }, 
     {
         title: "Content Updates",
-        completion: 'not started',
+        completion: 'completed',
         breakdown: [
             {
                 title: "Add Popup of User Guide to Smart Meter Page",
@@ -121,6 +133,7 @@ window.SPRINT_TASKS_2 = [
             },
         ]
     }, 
+    
     
     
 ]

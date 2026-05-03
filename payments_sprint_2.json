@@ -9,7 +9,7 @@
             "title": "1st Milestone Invoice",
             "description": "1st milestone payment (based on work completion)",
             "active": true,
-            "status": "pending",
+            "status": "paid",
             "date": "1st April 2026",
             "tasks": [
                 {
