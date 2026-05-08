@@ -51,10 +51,8 @@ window.SPRINT_TASKS_2 = [
                 days: 1,
                 completion: 'completed',
             }
-
         ]
     },
-   
     {
         title: "Page Creation",
         completion: 'in progress',
@@ -119,6 +117,12 @@ window.SPRINT_TASKS_2 = [
                 days: 1,
                 completion: 'completed',
             },
+            {
+                title: "Not Found Seo changes handling",
+                price: 500,
+                days: 1,
+                completion: 'completed',
+            },
         ]
     }, 
     {
@@ -133,8 +137,5 @@ window.SPRINT_TASKS_2 = [
             },
         ]
     }, 
-    
-    
-    
 ]
 

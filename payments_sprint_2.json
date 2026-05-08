@@ -21,6 +21,36 @@
         },
         {
             "id": "inv-002",
+            "title": "2nd Milestone Invoice",
+            "description": "2nd Milestone Invoice",
+            "active": true,
+            "status": "pending",
+            "date": "",
+            "tasks": [
+                {
+                    "id": "task-002",
+                    "title": "https://kimbal.io/smart-meters/",
+                    "amount": 5000
+                },
+                {
+                    "id": "task-002",
+                    "title": "https://kimbal.io/consumer-mobile-app/",
+                    "amount": 4000
+                },
+                {
+                    "id": "task-002",
+                    "title": "https://kimbal.io/contact-us/",
+                    "amount": 4000
+                },
+                {
+                    "id": "task-002",
+                    "title": "SEO Changes",
+                    "amount": 4500
+                }
+            ]
+        },
+        {
+            "id": "inv-003",
             "title": "Remaining Balance Invoice",
             "description": "Remaining balance payment",
             "active": true,
@@ -30,7 +60,7 @@
                 {
                     "id": "task-002",
                     "title": "Project Completion",
-                    "amount": 17000
+                    "amount": 4000
                 }
             ]
         }

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Proforma Invoice - PI-002</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+      padding: 30px 20px;
+      margin: 0;
+      line-height: 1.6;
+      color: #2c3e50;
+    }
+
+    .wrapper {
+      max-width: 650px;
+      margin: auto;
+      background: #ffffff;
+      padding: 25px;
+      border: 1px solid #e5e5e5;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      margin-bottom: 8px;
+      font-size: 28px;
+      font-weight: 600;
+      color: #1a1a1a;
+      letter-spacing: -0.5px;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #2c3e50;
+      margin-top: 0;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-size: 13px;
+    }
+
+    .muted {
+      color: #6c757d;
+      font-size: 13px;
+      letter-spacing: 0.3px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th {
+      background: #667eea;
+      color: #ffffff;
+      padding: 14px 12px;
+      text-align: left;
+      border-bottom: 2px solid #5568d3;
+      font-weight: 600;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    th.right {
+      text-align: right;
+    }
+
+    td {
+      padding: 14px 12px;
+      border-bottom: 1px solid #e9ecef;
+      color: #495057;
+      font-size: 14px;
+    }
+
+    tbody tr:hover {
+      background-color: #f8f9fa;
+      transition: background-color 0.2s ease;
+    }
+
+    .right {
+      text-align: right;
+      font-weight: 500;
+      color: #2c3e50;
+    }
+
+    .total-row td {
+      font-weight: 700;
+      background: #f8f9fa;
+      color: #1a1a1a;
+      font-size: 15px;
+      border-top: 2px solid #dee2e6;
+      border-bottom: 2px solid #dee2e6;
+      padding: 16px 12px;
+    }
+
+    .total-row td.right {
+      color: #667eea;
+      font-size: 16px;
+    }
+
+    .note {
+      margin-top: 24px;
+      padding: 16px 18px;
+      background: linear-gradient(135deg, #fff9e6 0%, #fff5d6 100%);
+      border-left: 4px solid #ffa726;
+      font-size: 13px;
+      line-height: 1.7;
+      color: #5d4037;
+      border-radius: 0 4px 4px 0;
+      box-shadow: 0 2px 4px rgba(255, 167, 38, 0.1);
+    }
+
+    table[cellpadding="0"][cellspacing="0"] {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #dee2e6;
+    }
+
+    .logo {
+      padding: 30px 25px 25px 25px;
+      background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+      border-bottom: 3px solid #667eea;
+    }
+
+    .logo h1 {
+      margin-bottom: 6px;
+    }
+
+    .desktopoff td {
+      padding: 25px;
+      background: #ffffff;
+    }
+
+    .desktopoff h3 {
+      color: #495057;
+      margin-bottom: 10px;
+    }
+
+    .desktopoff p {
+      margin-bottom: 20px;
+      color: #6c757d;
+      line-height: 1.8;
+    }
+
+    .desktopoff p strong,
+    .desktopoff p b {
+      color: #2c3e50;
+      font-weight: 600;
+    }
+
+    .inertab {
+      padding: 25px;
+      background: #ffffff;
+    }
+
+    p {
+      margin: 0 0 12px 0;
+      color: #6c757d;
+      line-height: 1.7;
+    }
+
+    p strong {
+      color: #2c3e50;
+    }
+  </style>
+</head>
+
+<body>
+
+  <table cellpadding="0" cellspacing="0" width="100%">
+    <tbody>
+      <tr>
+        <td>
+          <table cellpadding="0" cellspacing="0"
+            style="max-width: 800px; border: 1px solid #ccc; text-align: center; margin: auto;">
+            <tbody>
+              <tr>
+                <td class="logo">
+                  <h1>Proforma Invoice</h1><br />
+                  <p class="muted">PI-005 • Date: 31-03-2026</p>
+                </td>
+              </tr>
+              <tr class="desktopoff">
+                <td style="padding-top: 15px; text-align: left;">
+                  <h3>From</h3>
+                  <p>
+                    <strong>Akrit Singha</strong><br />
+                    Address: Arrah, Durgapur, West Bengal, India<br />
+                    Email: <b>akritsingha.official@gmail.com</b><br />
+                    Phone: +91 <b>6295570331</b><br />
+                    Bank Name: <b>Punjab National Bank</b><br />
+                    Account Number: <b>0914200100016886</b><br />
+                    IFSC: <b>PUNB0091420</b><br />
+                    PAN: <b>GTIPS6366G</b><br />
+                    GST Status: Not registered under GST. <b>No GST applicable.</b>
+                  </p>
+                  <h3>To</h3>
+                  <p>
+                    <strong>Kimbal.io</strong>
+                    Address: Plot No. C-117, 1st Floor to 4th Floor, Naraina Industrial Area, Phase I, Naraina
+                    Industrial Estate, South West Delhi-110028<br />
+                    Email: <b>lakshita@kimbal.io</b><br />
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-top: 4px; text-align: left;">
+                  <h3>Project Details</h3>
+                  <p>
+                    <strong>Project Name:</strong> Kimbal - Website Maintenance & Update<br />
+                    <strong>Scope:</strong> Website maintenance, updates, technical fixes, page creation.<br />
+                  </p>
+
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-top: 14px;">
+                  <h3>Invoice Payment Summary</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Description</th>
+                        <th>Amount (₹)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td style="text-align: left;">Final Payment</td>
+                        <td class="right">17,500</td>
+                      </tr>
+                      <tr class="total-row">
+                        <td style="text-align: left;">Total Amount Due</td>
+                        <td class="right">17,500</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr class="moboff">
+                <td class="inertab">
+
+                  <div class="note">
+                    This is a Proforma Invoice for the final payment (Milestone 1).
+                  </div>
+
+                  <p style="margin-top: 30px; font-size: 13px" class="muted">
+                    Prepared by: <strong>Akrit Singha</strong>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
