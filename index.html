@@ -398,6 +398,9 @@
         // Calculate total price recursively
         // If task has breakdown, sum breakdown items; otherwise use task price
         function calculateTotalPrice(task) {
+            if (task.price !== undefined && task.price !== null) {
+                return task.price;
+            }
             if (task.breakdown && task.breakdown.length > 0) {
                 let total = 0;
                 task.breakdown.forEach(item => {
@@ -410,6 +413,9 @@
 
         // Get display price for a task (shows breakdown sum if available, otherwise task price)
         function getDisplayPrice(task) {
+            if (task.price !== undefined && task.price !== null) {
+                return task.price;
+            }
             if (task.breakdown && task.breakdown.length > 0) {
                 return calculateTotalPrice(task);
             }
@@ -419,6 +425,9 @@
         // Calculate total days recursively
         // If task has breakdown, sum breakdown items; otherwise use task days
         function calculateTotalDays(task) {
+            if (task.days !== undefined && task.days !== null) {
+                return task.days;
+            }
             if (task.breakdown && task.breakdown.length > 0) {
                 let total = 0;
                 task.breakdown.forEach(item => {
@@ -431,6 +440,9 @@
 
         // Get display days for a task (shows breakdown sum if available, otherwise task days)
         function getDisplayDays(task) {
+            if (task.days !== undefined && task.days !== null) {
+                return task.days;
+            }
             if (task.breakdown && task.breakdown.length > 0) {
                 return calculateTotalDays(task);
             }
@@ -439,6 +451,10 @@
 
         // Calculate completed days recursively
         function calculateCompletedDays(task) {
+            if (task.days !== undefined && task.days !== null) {
+                const status = (task.completion || '').toLowerCase();
+                return status === 'completed' ? task.days : 0;
+            }
             if (task.breakdown && task.breakdown.length > 0) {
                 let total = 0;
                 task.breakdown.forEach(item => {
@@ -536,6 +552,7 @@
                                         </div>
                                     </div>
                                 ` : ''}
+                                ${getDisplayPrice(task) > 0 ? `
                                 <div class="flex items-center gap-1.5 px-2.5 py-1.5 min-h-[2.5rem] rounded-lg border border-indigo-200">
                                     <p class="font-bold text-indigo-700 ${level === 0 ? 'text-sm sm:text-base' : 'text-xs sm:text-sm'} leading-tight whitespace-nowrap">${formatPrice(getDisplayPrice(task))}</p>
                                     ${getDisplayDays(task) > 0 ? `
@@ -545,6 +562,7 @@
                                         </div>
                                     ` : ''}
                                 </div>
+                                ` : ''}
 
                             </div>
                         </div>

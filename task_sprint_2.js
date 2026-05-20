@@ -76,7 +76,7 @@ window.SPRINT_TASKS_2 = [
                 completion: 'completed',
             },
             {
-                title: "https://kimbal.io/meet-the-team/",
+                title: "https://kimbal.io/media-coverage/",
                 price: 4000,
                 days: 4,
                 completion: 'not started',
@@ -87,6 +87,82 @@ window.SPRINT_TASKS_2 = [
                 days: 4,
                 completion: 'completed',
             }
+        ]
+    },
+    {
+        title: "Article Revamp",
+        completion: 'not started',
+        breakdown: [
+            {
+                title: "Page design",
+                price: 4000,
+                days: 4,
+                completion: 'not started',
+            },
+            {
+                title: "Handle All Elements",
+                price: 5000,
+                days: 2,
+                completion: 'not started',
+            },
+            {
+                title: "Layout Handle - news, blogs etc",
+                price: 2000,
+                days: 4,
+                completion: 'not started',
+            },
+            {
+                title: "Calculator (Electricity Bill)",
+                price: 1000,
+                days: 1,
+                completion: 'completed',
+            },
+            {
+                title: "Performance Handling",
+                price: 1000,
+                days: 1,
+                completion: 'not started',
+            }
+        ]
+    },
+    {
+        title: "Sanity Tasks (May)",
+        price: 4000,
+        days: 2,
+        completion: 'not started',
+        breakdown: [
+            {
+                title: "Contact us page seo fixes",
+                completion: 'completed',
+            },
+            {
+                title: "Watt-wise page url changes",
+                completion: 'completed',
+            },
+            {
+                title: "https://kimbal.io/downloads/ - image radius fix",
+                completion: 'completed',
+            },
+            {
+                title: "Home page -  shift external css to inpage css",
+                completion: 'completed',
+            },
+            {
+                title: "Watt-wise pages article gap reduce",
+                completion: 'completed',
+            },
+            {
+                title: "Add states and device to calculator",
+                completion: 'completed',
+            },
+            {
+                title: "https://kimbal.io/blogs/ - image radius fix",
+                completion: 'completed',
+            },
+            {
+                title: "https://kimbal.io/blogs/ - article order and count fix",
+                completion: 'completed',
+            },
         ]
     },
     {
