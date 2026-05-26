@@ -101,66 +101,55 @@ window.SPRINT_TASKS_2 = [
             },
             {
                 title: "Handle All Elements",
-                price: 5000,
+                price: 4000,
                 days: 2,
                 completion: 'not started',
             },
             {
-                title: "Layout Handle - news, blogs etc",
+                title: "Layout Handle - news, blogs etc, performance",
                 price: 2000,
                 days: 4,
-                completion: 'not started',
-            },
-            {
-                title: "Calculator (Electricity Bill)",
-                price: 1000,
-                days: 1,
-                completion: 'completed',
-            },
-            {
-                title: "Performance Handling",
-                price: 1000,
-                days: 1,
                 completion: 'not started',
             }
         ]
     },
     {
         title: "Sanity Tasks (May)",
-        price: 4000,
-        days: 2,
         completion: 'not started',
         breakdown: [
             {
-                title: "Contact us page seo fixes",
-                completion: 'completed',
-            },
-            {
                 title: "Watt-wise page url changes",
+                price: 200,
                 completion: 'completed',
             },
             {
                 title: "https://kimbal.io/downloads/ - image radius fix",
+                price: 200,
                 completion: 'completed',
             },
             {
-                title: "Home page -  shift external css to inpage css",
-                completion: 'completed',
+                title: "All page -  shift external css to inpage css",
+                price: 1000,
+                completion: 'in progress',
             },
             {
                 title: "Watt-wise pages article gap reduce",
+                price: 200,
                 completion: 'completed',
             },
             {
                 title: "Add states and device to calculator",
+                price: 200,
                 completion: 'completed',
             },
             {
                 title: "https://kimbal.io/blogs/ - image radius fix",
+                price: 200,
                 completion: 'completed',
             },
             {
                 title: "https://kimbal.io/blogs/ - article order and count fix",
+                price: 500,
                 completion: 'completed',
             },
         ]
