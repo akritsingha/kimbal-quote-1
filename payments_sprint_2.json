@@ -24,7 +24,7 @@
             "title": "2nd Milestone Invoice",
             "description": "2nd Milestone Invoice",
             "active": true,
-            "status": "pending",
+            "status": "paid",
             "date": "",
             "tasks": [
                 {
@@ -58,9 +58,29 @@
             "date": "",
             "tasks": [
                 {
+                    "id": "task-001",
+                    "title": "Article Revamp",
+                    "amount": 10000
+                },
+                {
                     "id": "task-002",
-                    "title": "Project Completion",
+                    "title": "Sanity Tasks (July)",
+                    "amount": 1400
+                },
+                {
+                    "id": "task-003",
+                    "title": "Sanity Tasks (May)",
+                    "amount": 2500
+                },
+                {
+                    "id": "task-004",
+                    "title": "Page Creation - https://kimbal.io/media-coverage/",
                     "amount": 4000
+                },
+                {
+                    "id": "task-005",
+                    "title": "Extra Tasks manage",
+                    "amount": 1500
                 }
             ]
         }

@@ -55,7 +55,7 @@ window.SPRINT_TASKS_2 = [
     },
     {
         title: "Page Creation",
-        completion: 'in progress',
+        completion: 'completed',
         breakdown: [
             {
                 title: "https://kimbal.io/smart-meters/",
@@ -79,7 +79,7 @@ window.SPRINT_TASKS_2 = [
                 title: "https://kimbal.io/media-coverage/",
                 price: 4000,
                 days: 4,
-                completion: 'not started',
+                completion: 'completed',
             },
             {
                 title: "https://kimbal.io/contact-us/",
@@ -91,31 +91,31 @@ window.SPRINT_TASKS_2 = [
     },
     {
         title: "Article Revamp",
-        completion: 'not started',
+        completion: 'completed',
         breakdown: [
             {
                 title: "Page design",
                 price: 4000,
                 days: 4,
-                completion: 'not started',
+                completion: 'completed',
             },
             {
                 title: "Handle All Elements",
                 price: 4000,
                 days: 2,
-                completion: 'not started',
+                completion: 'completed',
             },
             {
                 title: "Layout Handle - news, blogs etc, performance",
                 price: 2000,
                 days: 4,
-                completion: 'not started',
+                completion: 'completed',
             }
         ]
     },
     {
         title: "Sanity Tasks (May)",
-        completion: 'not started',
+        completion: 'completed',
         breakdown: [
             {
                 title: "Watt-wise page url changes",
@@ -130,7 +130,7 @@ window.SPRINT_TASKS_2 = [
             {
                 title: "All page -  shift external css to inpage css",
                 price: 1000,
-                completion: 'in progress',
+                completion: 'completed',
             },
             {
                 title: "Watt-wise pages article gap reduce",
@@ -153,6 +153,48 @@ window.SPRINT_TASKS_2 = [
                 completion: 'completed',
             },
         ]
+    },
+    {
+        title: "Sanity Tasks (July)",
+        completion: 'completed',
+        breakdown: [
+            {
+                title: "Update Australia address on the Contact Us page",
+                price: 0,
+                completion: 'completed',
+            },
+            {
+                title: "SEO level changes: FAQs also need to be added and schema update on the Energy Management blog page",
+                price: 0,
+                completion: 'completed',
+            },
+            {
+                title: "SEO level changes on the Kimbal/blog page",
+                price: 200,
+                completion: 'completed',
+            },
+            {
+                title: "HES page - https://kimbal.io/head-end-system/ FAQ and Schema",
+                price: 500,
+                completion: 'completed',
+            },
+            {
+                title: "RF Mesh page - Schema",
+                price: 200,
+                completion: 'completed',
+            },
+            {
+                title: "Schema to the following blog pages - Solar Power in India, Smart Meter reading, Smart Meter Reading Display",
+                price: 500,
+                completion: 'completed',
+            }
+        ]
+    },
+    {
+        title: "Extra Tasks Charges",
+        price: 1500,
+        days: 4,
+        completion: 'completed',
     },
     {
         title: "Watt-wise Page",
