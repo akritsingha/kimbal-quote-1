@@ -244,5 +244,47 @@ window.SPRINT_TASKS_2 = [
             },
         ]
     }, 
+    {
+        title: "Page Creation (Aug)",
+        completion: 'pending',
+        breakdown: [
+            {
+                title: "https://kimbal.io/our-plants/",
+                price: 4000,
+                days: 4,
+                completion: 'pending',
+            },
+            {
+                title: "https://kimbal.io/head-end-system/",
+                price: 4000,
+                days: 4,
+                completion: 'pending',
+            },
+            {
+                title: "https://kimbal.io/rf-mesh/",
+                price: 4000,
+                days: 4,
+                completion: 'pending',
+            },
+            {
+                title: "https://kimbal.io/whats-new/",
+                price: 4000,
+                days: 4,
+                completion: 'pending',
+            },
+            {
+                title: "https://kimbal.io/thought-leadership/",
+                price: 4000,
+                days: 4,
+                completion: 'pending',
+            },
+            {
+                title: "https://kimbal.io/blogs/",
+                price: 4000,
+                days: 4,
+                completion: 'pending',
+            }
+        ]
+    },
 ]
 
