@@ -246,7 +246,7 @@ window.SPRINT_TASKS_2 = [
     }, 
     {
         title: "Page Creation (Aug)",
-        completion: 'in progress',
+        completion: 'completed',
         breakdown: [
             {
                 title: "https://kimbal.io/our-plants/",
