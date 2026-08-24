@@ -264,25 +264,25 @@ window.SPRINT_TASKS_2 = [
                 title: "https://kimbal.io/rf-mesh/",
                 price: 4000,
                 days: 4,
-                completion: 'pending',
+                completion: 'completed',
             },
             {
                 title: "https://kimbal.io/whats-new/",
                 price: 4000,
                 days: 4,
-                completion: 'pending',
+                completion: 'completed',
             },
             {
                 title: "https://kimbal.io/thought-leadership/",
                 price: 4000,
                 days: 4,
-                completion: 'pending',
+                completion: 'completed',
             },
             {
                 title: "https://kimbal.io/blogs/",
                 price: 4000,
                 days: 4,
-                completion: 'pending',
+                completion: 'completed',
             }
         ]
     },
