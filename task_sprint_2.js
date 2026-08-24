@@ -258,7 +258,7 @@ window.SPRINT_TASKS_2 = [
                 title: "https://kimbal.io/head-end-system/",
                 price: 4000,
                 days: 4,
-                completion: 'in progress',
+                completion: 'completed',
             },
             {
                 title: "https://kimbal.io/rf-mesh/",
