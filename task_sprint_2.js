@@ -286,5 +286,17 @@ window.SPRINT_TASKS_2 = [
             }
         ]
     },
+    {
+        title: "Tasks (Sep)",
+        completion: 'in progress',
+        breakdown: [
+            {
+                title: "New Footer Develop",
+                price: 1000,
+                days: 2,
+                completion: 'completed',
+            },
+        ]
+    }
 ]
 
