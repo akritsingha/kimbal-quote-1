@@ -296,6 +296,24 @@ window.SPRINT_TASKS_2 = [
                 days: 2,
                 completion: 'completed',
             },
+            {
+                title: "https://kimbal.io/ai-enabled-meter/",
+                price: 4000,
+                days: 4,
+                completion: 'in progress',
+            },
+            {
+                title: "https://kimbal.io/advanced-metering-infrastructing",
+                price: 4000,
+                days: 4,
+                completion: 'in progress',
+            },
+            {
+                title: "kimbal.io/in-meter-gateway",
+                price: 4000,
+                days: 4,
+                completion: 'in progress',
+            }
         ]
     }
 ]

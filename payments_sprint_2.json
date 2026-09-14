@@ -89,13 +89,29 @@
             "title": "Page Creation (Aug) Invoice",
             "description": "Remaining balance payment",
             "active": true,
-            "status": "pending",
+            "status": "paid",
             "date": "",
             "tasks": [
                 {
                     "id": "task-001",
                     "title": "Page Creation (Aug)",
                     "amount": 24000
+                }
+
+            ]
+        },
+        {
+            "id": "inv-005",
+            "title": "Page Creation (Sep) Invoice",
+            "description": "Remaining balance payment",
+            "active": true,
+            "status": "pending",
+            "date": "",
+            "tasks": [
+                {
+                    "id": "task-001",
+                    "title": "Page Creation (Aug)",
+                    "amount": 13000
                 }
 
             ]
