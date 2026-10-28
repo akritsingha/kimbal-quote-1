@@ -1,0 +1,48 @@
+{
+    "clientName": "Kimbal Technologies",
+    "developerName": "Akrit Singha",
+    "developerEmail": "akritsingha.official@gmail.com",
+    "developerPhone": "+91 6295570331",
+    "invoices": [
+        {
+            "id": "inv-001",
+            "title": "Tasks - October Invoice",
+            "description": "Tasks - October",
+            "active": true,
+            "status": "pending",
+            "date": "",
+            "tasks": [
+                {
+                    "id": "task-001",
+                    "title": "Header banner addition",
+                    "amount": 500
+                },
+                {
+                    "id": "task-002",
+                    "title": "Dynamic byline addition",
+                    "amount": 500
+                },
+                {
+                    "id": "task-003",
+                    "title": "Dynamic Author Description addition",
+                    "amount": 500
+                },
+                {
+                    "id": "task-004",
+                    "title": "Page Creation - https://kimbal.io/investor/",
+                    "amount": 4000
+                },
+                {
+                    "id": "task-005",
+                    "title": "Page Creation - https://kimbal.io/resources/",
+                    "amount": 4000
+                },
+                {
+                    "id": "task-006",
+                    "title": "Page Creation - https://kimbal.io/downloads/",
+                    "amount": 4000
+                }
+            ]
+        }
+    ]
+}

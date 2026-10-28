@@ -250,6 +250,7 @@
                                 class="rounded-md border border-gray-300 bg-white py-1 pl-2 pr-7 text-xs font-medium text-gray-900 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500/40">
                                 <option value="1">S1</option>
                                 <option value="2">S2</option>
+                                <option value="3">S3</option>
                             </select>
                         </div>
                     </div>
@@ -287,17 +288,18 @@
 
     <script src="task_sprint_1.js"></script>
     <script src="task_sprint_2.js"></script>
+    <script src="task_sprint_3.js"></script>
     <script>
         const SPRINT_STORAGE_KEY = 'kimbal-dashboard-sprint';
 
         function getStoredSprint() {
             const v = localStorage.getItem(SPRINT_STORAGE_KEY);
-            if (v === '1' || v === '2') return Number(v);
-            return 2;
+            if (v === '1' || v === '2' || v === '3') return Number(v);
+            return 3;
         }
 
         function getTasksForSprint(sprintNum) {
-            return sprintNum === 2 ? window.SPRINT_TASKS_2 : window.SPRINT_TASKS_1;
+            return window[`SPRINT_TASKS_${sprintNum}`] || [];
         }
 
         let currentSprint = getStoredSprint();

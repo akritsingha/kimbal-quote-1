@@ -313,8 +313,19 @@ window.SPRINT_TASKS_2 = [
                 price: 4000,
                 days: 4,
                 completion: 'in progress',
+            },
+            {
+                title: "adjustments",
+                price: 540,
+                completion: 'completed',
             }
         ]
+    },
+    {
+        title: "Seo Maintenance",
+        price: 7000,
+        days: 10,
+        completion: 'completed',
     }
 ]
 

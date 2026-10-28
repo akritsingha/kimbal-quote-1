@@ -105,15 +105,50 @@
             "title": "Page Creation (Sep) Invoice",
             "description": "Remaining balance payment",
             "active": true,
+            "status": "paid",
+            "date": "",
+            "tasks": [
+                {
+                    "id": "task-002",
+                    "title": "Sanity Tasks (July)",
+                    "amount": 1000
+                },
+                {
+                    "id": "task-003",
+                    "title": "Sanity Tasks (May)",
+                    "amount": 4000
+                },
+                {
+                    "id": "task-004",
+                    "title": "Page Creation - https://kimbal.io/media-coverage/",
+                    "amount": 4000
+                },
+                {
+                    "id": "task-005",
+                    "title": "kimbal.io/in-meter-gateway",
+                    "amount": 4000
+                },
+                {
+                    "id": "task-005",
+                    "title": "Adjustments",
+                    "amount": 540
+                }
+
+            ]
+        },
+        {
+            "id": "inv-006",
+            "title": "SEO Maintenance (Oct) Invoice",
+            "description": "Remaining balance payment",
+            "active": true,
             "status": "pending",
             "date": "",
             "tasks": [
                 {
                     "id": "task-001",
-                    "title": "Page Creation (Aug)",
-                    "amount": 13000
+                    "title": "SEO Maintenance",
+                    "amount": 7000
                 }
-
             ]
         }
     ]
